@@ -12,7 +12,7 @@
 
 1. Install node.js
 1. run `yarn && yarn lix download && yarn haxe server-aws.hxml`
-1. Upload the generated aws.js to AWS Lambda
+1. Upload the generated aws.js to AWS Lambda, setting handler to `aws.index`
 1. Create a AWS API Gateway with:
     - Method: ANY
     - Resourcep path; /{proxy+}
