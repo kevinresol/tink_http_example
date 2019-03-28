@@ -1,0 +1,5 @@
+server.hxml
+-main Server
+-js bin/server/local.js
+
+-lib hxnodejs

@@ -1,0 +1,4 @@
+server.hxml
+Server
+-js bin/server/aws.js
+-D platform=aws
